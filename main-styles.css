@@ -1,0 +1,204 @@
+:root {
+    --dark: #171717;
+    --yellow: #eed04c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "WDXL Lubrifont TC";
+}
+
+.header {
+    padding-block: 30px;
+}
+
+.header_container {
+    max-width: 1069px;
+    margin: auto;
+}
+
+.main_title {
+    font-size: 100px;
+    text-shadow: 5px 5px #eed04c9a;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header_list_item {
+    font-size: larger;
+    font-weight: 550;
+    
+}
+
+.header_list_link.active {
+    border-bottom: 4px solid var(--yellow);
+    color: var(--dark);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.header_list_link {
+    color: gray;
+    transition: color 0.3s;
+}
+
+.header_list_link:hover {
+    color: var(--dark);
+}
+
+.news {
+    padding-block: 45px;
+    padding-left: 475px;
+}
+
+.desc_container {
+    max-width: 1069px;
+    margin: auto;
+    padding-block: 30px;
+}
+
+.desc_name {
+    font-family: Rubik Mono One;
+    color: var(--yellow);
+    text-align: center;
+}
+
+.desc_desc {
+    font-size: 20px;
+    text-align: center;
+}
+
+.gauda {
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 3px solid var(--dark);
+}
+
+.product {
+    color: #444444;
+}
+
+.catalog_container {
+    padding-block: 30px;
+    max-width: 1069px;
+    margin: auto;
+}
+
+.products {
+    padding-block: 70px;
+    display: flex;
+    gap: 50px;
+}
+
+.product_price {
+    text-align: center;
+}
+
+.catalog_title {
+    text-align: center;
+    font-family: Rubik Mono One;
+}
+
+.product_title {
+    text-align: center;
+}
+
+.product_desc {
+    text-align: center;
+}
+
+.more_button {
+    margin: auto;
+    max-width: 235px;
+    text-align: center;
+    font-size: 30px;
+    transition: color 0.3s; 
+}
+
+.more_button_link {
+    text-decoration: none;
+    color: #444444;
+    transition: color 0.3s;
+}
+
+.more_button_link:hover {
+    color: #171717;
+}
+
+.footer_container {
+    padding-block: 30px;
+    max-width: 1469px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.soglashenie {
+    font-size: 20px;
+    font-family: Rubik Mono One;
+    color: #444444;
+}
+
+.number {
+    font-size: 20px;
+    color: #444444;
+    font-family: Rubik Mono One;
+}
+
+.adress {
+    font-size: 20px;
+    color: #444444;
+    font-family: Rubik Mono One;
+    text-decoration: underline;
+    text-decoration-color: #444444;
+}
+
+.mail {
+    font-size: 20px;
+    color: #444444;
+    font-family: Rubik Mono One;
+    text-decoration: underline;
+    text-decoration-color: #444444;
+}
+
+.number:hover {
+    font-size: 20px;
+    font-family: Rubik Mono One;
+    color: #171717;
+}
+
+.adress:hover {
+    font-size: 20px;
+    font-family: Rubik Mono One;
+    color: #171717;
+    text-decoration: underline;
+    text-decoration-color: #171717;
+}
+
+.mail:hover {
+    font-size: 20px;
+    font-family: Rubik Mono One;
+    color: #171717;
+    text-decoration: underline;
+    text-decoration-color: #171717;
+}
